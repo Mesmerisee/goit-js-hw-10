@@ -1,0 +1,23 @@
+@import 'slim-select/dist/slimselect.min.css';
+
+.loader,
+.error {
+  display: none;
+}
+
+.is-hidden {
+  display: none;
+}
+
+.loading .breed-select,
+.loading .cat-info {
+  display: none;
+}
+
+.loading .loader {
+  display: block;
+}
+
+.error .error {
+  display: block;
+}
